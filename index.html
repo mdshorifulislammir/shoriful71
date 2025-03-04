@@ -3,232 +3,191 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Routine & Portfolio</title>
+  <title>Daily Routine & Income Statement</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <!-- Top Banner -->
   <header class="banner">
-    <div class=""></div>
-    <h1>My Daily Routine & Portfolio</h1>
-    <div id="live-date-time"></div>
+    <div class="profile-container">
+      <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+    </div>
+    <div class="datetime-container">
+      <p id="live-date-time">Loading...</p>
+    </div>
   </header>
 
-  <!-- Daily Routine Section -->
-  <section class="daily-routine">
-    <h2>Daily Routine</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Task</th>
-          <th>Start Time</th>
-          <th>End Time</th>
-          <th>Duration</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Office Work</td>
-          <td>8:00 AM</td>
-          <td>9:00 PM</td>
-          <td>13 Hours</td>
-        </tr>
-        <tr>
-          <td>Video Editing</td>
-          <td>9:00 PM</td>
-          <td>3:00 AM</td>
-          <td>6 Hours</td>
-        </tr>
-        <tr>
-          <td>Graphic Design</td>
-          <td>3:00 AM</td>
-          <td>5:00 AM</td>
-          <td>2 Hours</td>
-        </tr>
-        <tr>
-          <td>English Practice</td>
-          <td>5:00 AM</td>
-          <td>6:00 AM</td>
-          <td>1 Hour</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
+  <!-- Main Content -->
+  <main>
+    <!-- Daily Routine Section -->
+    <section class="routine-section">
+      <h2>Daily Routine</h2>
+      <table class="routine-table">
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Office Time</td>
+            <td>8:00 AM - 9:00 PM (13 Hours)</td>
+          </tr>
+          <tr>
+            <td>Video Editing</td>
+            <td>6 Hours</td>
+          </tr>
+          <tr>
+            <td>Graphic Design</td>
+            <td>2 Hours</td>
+          </tr>
+          <tr>
+            <td>English Practice</td>
+            <td>1 Hour</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
-  <!-- Monthly Income Statement -->
-  <section class="income-statement">
-    <h2>Monthly Income Statement</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Month </th>
-          <th>catagory</th>
+    <!-- Income Statement Section -->
+    <section class="income-section">
+      <h2>Monthly Income Statement</h2>
+      <table class="income-table">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Income</th>
+            <th>Cost</th>
+            <th>Savings</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Freelancing</td>
+            <td>$1000</td>
+            <td>$300</td>
+            <td>$700</td>
+          </tr>
+          <tr>
+            <td>YouTube</td>
+            <td>$500</td>
+            <td>$100</td>
+            <td>$400</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
-          <th>Income</th>
-          <th>Cost</th>
-          <th>Savings</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>3 th March</td>
-          <td>Igloo</td>
-          <td>2750</td>
-          <td>1700</td>
-          <td>1350</td>
-          
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
+    <!-- Google Calendar -->
+    <section class="calendar-section">
+      <h2>Google Calendar</h2>
+      <iframe src="https://calendar.google.com/calendar/embed?src=example%40gmail.com&ctz=Asia%2FDhaka" style="border: 0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+    </section>
 
-  <!-- Google Calendar Integration -->
-  <section class="google-calendar">
-    <h2>Google Calendar</h2>
-    <iframe src="https://calendar.google.com/calendar/embed?src=example%40gmail.com&ctz=Asia%2FDhaka" style="border: 0" width="200" height="600" frameborder="0" scrolling="no"></iframe>
-  </section>
+    <!-- Portfolio Sections -->
+    <section class="portfolio-section">
+      <h2>Work Portfolio</h2>
+      <table class="portfolio-table">
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Project A</td>
+            <td>2023-10-01</td>
+            <td>2023-10-15</td>
+          </tr>
+          <tr>
+            <td>Project B</td>
+            <td>2023-10-16</td>
+            <td>2023-10-30</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
-  <!-- Work Portfolio Schedules -->
-  <section class="portfolio">
-    <h2>Work Portfolio Schedule</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Task</th>
-          <th>Start Date</th>
-          <th>End Date</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Project A</td>
-          <td>2023-10-01</td>
-          <td>2023-10-10</td>
-        </tr>
-        <tr>
-          <td>Project B</td>
-          <td>2023-10-11</td>
-          <td>2023-10-20</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
+    <section class="video-editing-section">
+      <h2>Video Editing Portfolio</h2>
+      <table class="portfolio-table">
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Video 1</td>
+            <td>2023-10-01</td>
+            <td>2023-10-05</td>
+          </tr>
+          <tr>
+            <td>Video 2</td>
+            <td>2023-10-06</td>
+            <td>2023-10-10</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
-  <!-- Video Editing Portfolio -->
-  <section class="video-editing">
-    <h2>Video Editing Portfolio</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Project Name</th>
-          <th>Start Date</th>
-          <th>End Date</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Video 1</td>
-          <td>2023-10-01</td>
-          <td>2023-10-05</td>
-        </tr>
-        <tr>
-          <td>Video 2</td>
-          <td>2023-10-06</td>
-          <td>2023-10-10</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
+    <section class="graphic-design-section">
+      <h2>Graphic Design Portfolio</h2>
+      <table class="portfolio-table">
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Design 1</td>
+            <td>2023-10-01</td>
+            <td>2023-10-03</td>
+          </tr>
+          <tr>
+            <td>Design 2</td>
+            <td>2023-10-04</td>
+            <td>2023-10-07</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
-  <!-- Graphic Design Portfolio -->
-  <section class="graphic-design">
-    <h2>Graphic Design Portfolio</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Project Name</th>
-          <th>Start Date</th>
-          <th>End Date</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Logo Design</td>
-          <td>2023-10-01</td>
-          <td>2023-10-03</td>
-        </tr>
-        <tr>
-          <td>Banner Design</td>
-          <td>2023-10-04</td>
-          <td>2023-10-05</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
+    <!-- To-Do List -->
+    <section class="todo-section">
+      <h2>To-Do List</h2>
+      <table class="todo-table">
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Task 1</td>
+            <td>2023-10-01</td>
+            <td>2023-10-05</td>
+          </tr>
+          <tr>
+            <td>Task 2</td>
+            <td>2023-10-06</td>
+            <td>2023-10-10</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
 
-  <!-- To-Do List -->
-  <section class="to-do-list">
-    <h2>To-Do List</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Task</th>
-          <th>Start Date</th>
-          <th>End Date</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Task 1</td>
-          <td>2023-10-01</td>
-          <td>2023-10-02</td>
-        </tr>
-        <tr>
-          <td>Task 2</td>
-          <td>2023-10-03</td>
-          <td>2023-10-04</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
-
-  <!-- Live Date and Time Script -->
-  <script>
-    function updateDateTime() {
-      const now = new Date();
-      const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' };
-      document.getElementById('live-date-time').textContent = now.toLocaleDateString('en-US', options);
-    }
-    setInterval(updateDateTime, 1000);
-    updateDateTime();
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
