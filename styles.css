@@ -74,4 +74,14 @@ h2 {
   table {
     font-size: 14px;
   }
+  /* Responsive Design */
+@media (max-width: 768px) {
+  .section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  table {
+    font-size: 14px;
+  }
 }
